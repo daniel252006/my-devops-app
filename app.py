@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Read the version from the environment, default to "1.0 (Stable)"
 VERSION = os.environ.get('APP_VERSION', '1.0 (Stable)')
-COLOR = os.environ.get('APP_COLOR', 'blue') # Used for visual testing
+COLOR = os.environ.get('APP_COLOR', 'green') # Used for visual testing
 
 @app.route('/')
 def home():
